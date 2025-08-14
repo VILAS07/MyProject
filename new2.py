@@ -1,4 +1,4 @@
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalL
 
 model_name = "EleutherAI/gpt-neo-125M"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -21,3 +21,4 @@ outputs = model.generate(
 
 generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print("Generated Text:\n", generated_text)
+
