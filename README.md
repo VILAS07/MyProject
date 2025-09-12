@@ -1,1 +1,1 @@
-# MyProject 3
+# MyProject
